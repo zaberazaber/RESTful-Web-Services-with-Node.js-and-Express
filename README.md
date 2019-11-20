@@ -18,7 +18,7 @@ add an eslint task in the pakage.jason script to avoid installing eslint globall
   },
 ```
 
-then we will run `npm run lint --init`  what this -- does is that it will pass anything after it to run after the value of the variable so 
+then we will run `npm run lint -- --init`  what this -- does is that it will pass anything after it to run after the value of the variable so 
 this will be equal to 
 
-npm run lint --init  --> npm run eslint init
+npm run lint -- --init  --> npm run eslint --init
